@@ -1,0 +1,26 @@
+a {
+	text-decoration: none;
+	color: #03A9F4;
+}
+
+body {
+	max-width: 65em;
+	margin: auto;
+}
+
+.head {
+	text-align: center;
+	align-items: center;
+}
+
+@media (prefers-color-scheme: dark) {
+body {
+	background-color: #0C0C0C;
+	color: white;
+    }
+
+a { 
+        color: #81D4FA;
+	}
+
+}
